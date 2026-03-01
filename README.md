@@ -1,2 +1,2 @@
-# security-lab
+# security-trainer
 Comprehensive security practice repository.
