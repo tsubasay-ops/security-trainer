@@ -52,22 +52,26 @@
 
 ## 4. ドメインモデル
 
-### Problem
-- id
-- title
-- imagePath
-- List<VulnerabilityPoint>
+### 1. Problem（問題）
+- **id**: 問題を識別する一意のID
+- **title**: 問題のタイトル
+- **imagePath**: 問題画像のパス
+- **vulnerabilityPoints**: 問題内の脆弱箇所リスト（`List<VulnerabilityPoint>`）
 
-### VulnerabilityPoint
-- x
-- y
-- correct
-- explanation
+---
 
-### ClickResult
-- x
-- y
-- isCorrect
+### 2. VulnerabilityPoint（脆弱箇所）
+- **x**: クリック判定用 X座標
+- **y**: クリック判定用 Y座標
+- **correct**: 正解フラグ（true / false）
+- **explanation**: 解説テキスト
+
+---
+
+### 3. ClickResult（クリック結果）
+- **x**: クリックした X座標
+- **y**: クリックした Y座標
+- **isCorrect**: 正解かどうかの判定結果（true / false）
 
 ---
 
