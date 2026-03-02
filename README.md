@@ -1,2 +1,4 @@
 # security-trainer
-Comprehensive security practice repository.
+
+- **プロジェクト名**: security-trainer
+- **目的**: ローコード開発部署への配属により、スクラッチ開発の経験が不足している。研修で約半年間取り組んだJavaでのスクラッチ開発の経験を活かし、個人開発を行う。また、本アプリで出題される問題を考える上で、情報処理安全確保支援士の資格学習にもつながることを期待する。
